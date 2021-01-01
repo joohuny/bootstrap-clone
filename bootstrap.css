@@ -1,0 +1,158 @@
+@import "reset.css";
+
+body .main .footer {
+  margin: 0px 180;
+}
+
+.nav {
+  padding: 30px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 1px;
+  margin-bottom: 80px;
+}
+
+.nav-title h4 {
+  font-weight: bold;
+}
+
+.nav-title .nav-title__link {
+  margin-left: 20px;
+  color: black;
+}
+
+.nav-title .nav-title__link:last-child {
+  text-decoration: none;
+  background-color: white;
+  color: blue;
+  border: 1px solid blue;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.main {
+  margin: 0px 180px;
+  margin-bottom: 100px;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.main-info__title {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.main-info__subtitle {
+  line-height: 1.5;
+  font-weight: lighter;
+  margin-bottom: 40px;
+}
+.main-price {
+  display: flex;
+  justify-content: center;
+}
+.main-price__item {
+  width: 290px;
+  height: 300px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 0px 10px;
+  text-align: center;
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 1px 1px 1px;
+}
+
+.main-price__item-title {
+  padding: 12px;
+  font-weight: bold;
+  background-color: rgba(0, 0, 0, 0.05);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.main-price__item-price {
+  font-size: 30px;
+  padding: 25px 0px;
+}
+.main-price__item-price span {
+  opacity: 0.4;
+}
+.main-price__item-price__info {
+  line-height: 1.5;
+  margin-bottom: 35px;
+}
+
+.main-price__item-price__info span {
+  display: block;
+}
+.main-price__item-btn {
+  cursor: pointer;
+  margin: 0px 10px;
+  border: 1px solid skyblue;
+  border-radius: 3px;
+  padding: 10px 0px;
+}
+
+.main-price__item-btn a {
+  font-size: 15px;
+  text-decoration: none;
+  color: skyblue;
+}
+.main-price__item-btn__second {
+  background-color: skyblue;
+}
+.main-price__item-btn__second:hover {
+  background-color: blue;
+}
+.main-price__item-btn__third {
+  background-color: skyblue;
+}
+.main-price__item-btn__third:hover {
+  background-color: blue;
+}
+.main-price__item-btn__second a {
+  color: white;
+}
+.main-price__item-btn__third a {
+  color: white;
+}
+
+.footer {
+  margin: 0px 180px;
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.footer-icon {
+  display: flex;
+  flex-direction: column;
+  margin-left: -50px;
+  margin-right: 15px;
+}
+
+.footer-icon img {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.footer-features {
+  display: flex;
+  flex-direction: column;
+}
+.footer-features a {
+  line-height: 2;
+  color: rgba(0, 0, 0, 0.2);
+}
+.footer-features-main {
+  margin-bottom: 20px;
+}
